@@ -15,7 +15,6 @@ export class AppComponent
   result:string = "";
   value:number = 0;
   errorMsg:string="";
-  inputs: string[] = [];
   operators = ['*','/','+','-']; 
   constructor() {
 
@@ -66,10 +65,6 @@ export class AppComponent
 		{
 			this.input += t;
 		}
-
-
-
-
 	}
 
 	SetInputTo(t:string)
